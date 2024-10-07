@@ -1,0 +1,36 @@
+Dear [business leader], 
+
+My name is Cliff  and I'm the analytics engineer on the [corporate functions] team. I work with [manager] on the [project].
+[Project] is focused on [goal] and currently it is kicking off, so we're exploring the data that will feed the product. Doing this exploration early on
+in the project is crucial since the quality of the output heavily depends on the quality of the data that goes into it. The purpose of this 
+message is to provide an update on a couple findings on the data quality, what I think we should do to address these issues, and potential next steps.
+
+The data quality exploration investigated the accuracy, completeness, and consistency of the data. To do this, we explored areas such as the proportion of empty values, 
+presence of outliers, min-max values, and whether values made sense in general. Here are a couple key findings summarized:
+
+1. Missing Values: 2 of the 3 datasets exhibited large proportions of missing values in several of their columns
+2. Incompatible datatypes: some columns have a variety of datatypes, making analysis difficult without addressing these 
+3. Imbalanced Dataset: large proportion of userbase is concentrated in one demographic, could affect validity of conclusions
+
+To address these issues, we would need direction in a couple ways. First, getting an idea on what leadership is looking to prioritize in terms 
+of the analysis we're looking to generate will direct how we approach problem 1. Would we require more samples to create a richer dataset or 
+are we focused on the completeness of each data point? This would influence whether we incorporate data points with missing values into our analysis.
+
+To address problems 2 and 3, getting a clearer idea on our target demogrpahic and an estimate on the number of users over time would be extremely helpful.
+This would be useful since knowing our target demographic would allow us to also understand which points of data we need to either disregard or apply computation to supplement.
+Lastly, as we move forward and scale our solution, the userbase and data requirements would grow and create potential issues. These issues include: 
+
+1. data management and storage issues - how to store and handle large volumes of incoming data
+2. system inefficiencies - will likely need to update data storage architecture as volume of data grows
+
+To address these issues, our team will eventually look into implementing distributed computing, which spreads out computing and storage jobs across
+several different resources, ensuring our systems can intake, process, and output data smoothly, even when faced with strenuous loads. 
+
+As a next step for this project, I'm suggesting we set up a meeting with the stakeholders of this project to clarify key details about scope, which will help 
+provide the team more direction. Additionally, we hope to get more clarity on the eventual userbase and number of users. If you'd find it beneficial, we can also set up a 
+bi-weekly or monthly meeting with you to provide updates on our progress. 
+
+If you have any questions, please do not hesitate to reach out. 
+
+Thanks for your time, 
+Cliff
