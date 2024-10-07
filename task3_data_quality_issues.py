@@ -95,7 +95,6 @@ print(f"Range of barcodes: {out.min()} - {out.max()}")
 
 # Finding: different data types in columns - brandCode, inconsistent fields - first entry has no brandCode
 
-# %% 
 # --------------------------------
 # Section 2: Check Users dataset
 # --------------------------------
@@ -143,7 +142,6 @@ print(check_dup.groupby(check_dup.columns.tolist(),as_index=False).size())
 # Finding: Heavily imbalanced dataset with emphasis on tuple (True, consumer, email, WI)
 
 
-# %%
 # -------------------------------
 # Section 3: Check Receipts Dataset
 # -------------------------------
